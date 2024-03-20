@@ -1,0 +1,93 @@
+API Gateway serves as a single access point for all APIs.API Gateway also provides policy enforcement such as authentication and rate-limiting to HTTP/S endpoints.The API Gateway is hosted on a Public Subnet and only accepts Inbound traffic from the WAF. All other Inbound Traffic is blocked by the Network security groups. There is a maximum limit of 20 active API deployments per gateway.
+
+Oracle Integration is a fully managed, preconfigured environment that gives you the power to integrate your cloud and on-premises applications, automate business processes, gain insight into your business processes, develop visual applications, use an SFTP-compliant file server to store and retrieve files, and exchange business documents with a B2B trading partner.
+
+OCI Logging services offer comprehensive and centralized log management capabilities within Oracle Cloud Infrastructure. It enables the collection, storage, and analysis of logs from various resources and services across the OCI environment.
+
+A fully automated database service optimized to run transactional, analytical, and batch workloads concurrently. To accelerate performance, it is preconfigured for row format, indexes, and data caching, while providing scalability, availability, transparent security, and real-time operational analytics.
+
+A fully automated database service optimized to run transactional, analytical, and batch workloads concurrently. To accelerate performance, it is preconfigured for row format, indexes, and data caching, while providing scalability, availability, transparent security, and real-time operational analytics.
+
+5. BIBLIOGRAPHY
+1. HashiCorp. (2021). Terraform by HashiCorp. Retrieved from https://www.terraform.io/
+2. Oracle. (2021). Oracle Cloud Infrastructure. Retrieved from https://www.oracle.com/cloud/
+3. Oracle. (2021). Oracle Cloud Infrastructure Security. Retrieved from https://www.oracle.com/security/cloud-security/oci/
+4. KuppingerCole. (2021). Best Practices for Cloud Security. Retrieved from https://www.kuppingercole.com/report/bp80221
+5. Amazon Web Services. (2021). Infrastructure as Code - AWS CloudFormation & AWS Cloud Development Kit. Retrieved from https://aws.amazon.com/cloudformation/
+
+
+The goal of deploying a 3-tier architecture in AWS using Terraform is to create a highly available and scalable infrastructure that can handle a large amount of traffic and data. This architecture separates the presentation layer, application layer, and database layer, which enables easy management and maintenance of each layer.
+
+Process:
+The process of deploying a 3-tier architecture in AWS using Terraform involves the following steps:
+
+1. Plan the infrastructure: Identify the resources required for each tier, such as EC2 instances, load balancers, RDS instances, and security groups.
+
+2. Create the Terraform files: Write the Terraform code to define the infrastructure.
+
+3. Initialize and apply the Terraform code: Initialize the Terraform environment and apply the code to create the infrastructure.
+
+4. Test the infrastructure: Test the infrastructure to ensure that it is working as expected.
+
+5. Monitor and maintain the infrastructure: Monitor the infrastructure for any issues and perform regular maintenance tasks.
+
+Description of features:
+The 3-tier architecture in AWS using Terraform has the following features:
+
+1. Scalability: The architecture is designed to scale horizontally and vertically to handle a large amount of traffic and data.
+
+2. High availability: The architecture is designed to be highly available, with each tier having multiple instances to ensure that the application is always accessible.
+
+3. Security: The architecture is designed with security in mind, with each tier having its own security group to restrict access to only authorized users.
+
+4. Easy maintenance: The architecture is designed to be easy to maintain, with each tier being independent of the others, making it easy to update or replace a single tier without affecting the others.
+
+5. Cost-effective: The architecture is designed to be cost-effective, with the use of auto-scaling groups and spot instances to optimize the cost of running the infrastructure.
+
+
+The goal of deploying a CI/CD pipeline using Jenkins is to automate the continuous integration and delivery of software to production. This ensures that any changes made to the codebase are automatically built, tested, and deployed to the production environment, reducing the likelihood of errors and increasing efficiency.
+
+The process of deploying a CI/CD pipeline using Jenkins typically involves the following steps:
+
+1. Setting up a Jenkins server: This involves installing Jenkins and any necessary plugins, configuring security settings, and creating Jenkins jobs to build, test, and deploy the code.
+
+2. Configuring the build process: This includes setting up a build script, defining build triggers, and specifying the build environment.
+
+3. Configuring the test process: This includes setting up automated tests and defining test suites to ensure that the code meets quality standards.
+
+4. Configuring the deployment process: This includes setting up a deployment pipeline, defining deployment targets, and specifying the deployment environment.
+
+Some of the key features of Jenkins that make it a popular choice for CI/CD include:
+
+1. Support for multiple programming languages and platforms.
+
+2. A large library of plugins that enable integration with other tools and technologies.
+
+3. Robust support for automation, including the ability to define complex workflows and pipelines.
+
+4. Flexible and configurable security settings to ensure that only authorized users have access to sensitive data.
+
+
+1. Tenancy:
+   Description: The tenancy is the highest level of the OCI hierarchy, representing the root compartment that encapsulates all resources and compartments.
+Key Feature:
+Resource Organization:
+  - Enables the organization and isolation of resources within a single OCI account.
+- Billing and Cost Management:
+  - Facilitates tracking and management of costs associated with all resources within the tenancy.
+
+Use Case: It is the foundational environment for organizing and managing all resources within an OCI account.
+
+
+•	API Gateway:  API Gateway serves as a single access point for all APIs. API Gateway also provides policy enforcement such as authentication and rate-limiting to HTTP/S endpoints. The API Gateway is hosted on a Public Subnet and only accepts Inbound traffic from the WAF. All other Inbound Traffic is blocked by the Network security groups. There is a maximum limit of 20 active API deployments per gateway.
+•	Compute: The Compute component in our architecture serves as the foundation for hosting applications and executing various workloads on the Oracle Cloud Infrastructure. This essential building block offers scalable and customizable virtual machines (VMs) to meet diverse computational requirements.
+•	OIC: Oracle Integration is a fully managed, preconfigured environment that gives you the power to integrate your cloud and on-premises applications, automate business processes, gain insight into your business processes, develop visual applications, use an SFTP-compliant file server to store and retrieve files, and exchange business documents with a B2B trading partner.
+•	Logging: OCI Logging services offer comprehensive and centralized log management capabilities within Oracle Cloud Infrastructure. It enables the collection, storage, and analysis of logs from various resources and services across the OCI environment.
+•	Object Storage: A fully automated database service optimized to run transactional, analytical, and batch workloads concurrently. To accelerate performance, it is preconfigured for row format, indexes, and data caching, while providing scalability, availability, transparent security, and real-time operational analytics. 
+•	ATP: A fully automated database service optimized to run transactional, analytical, and batch workloads concurrently. To accelerate performance, it is preconfigured for row format, indexes, and data caching, while providing scalability, availability, transparent security, and real-time operational analytics.
+
+
+this automation what is delivery of the project...
+it delivery end to end solution for new infrst provising and steup
+
+
